@@ -33,7 +33,7 @@ public class MainClass {
             }
             System.out.println("맞춰봐~");
             Random random = new Random(); // 랜덤을 사용하기 위한 준비
-            int computerInput = random.nextInt(10) + 1; // 1~9까지 숫자가 랜덤으로 나오게
+            int computerInput = random.nextInt(computerNum) + 1; // 1~9까지 숫자가 랜덤으로 나오게
             System.out.println("컴퓨터가 구슬을 내고 있습니다..");
 
             if (computerInput % 2 == 1) {
