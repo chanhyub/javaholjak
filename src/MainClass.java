@@ -1,3 +1,4 @@
+import java.util.Objects;
 import java.util.Scanner;
 import java.util.Random;
 
@@ -45,7 +46,7 @@ public class MainClass {
 
             System.out.print("홀짝 입력 >> ");
             userAnswer = sc.next();
-            if (userAnswer == result) {
+            if (Objects.equals(userAnswer, result)) {
                 System.out.println("승리!");
                 System.out.println("컴퓨터가 낸 구슬 " + computerInput + " 개를 가져옵니다.");
                 playerNum += computerInput;
