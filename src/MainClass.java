@@ -6,7 +6,7 @@ public class MainClass {
         int playerNum = 10; // 유저 구슬 갯수
         int computerNum = 10; // 컴퓨터 구슬 갯수
         int playerInputNum;
-        String result;
+        String result; //
         String userAnswer;
 
 
